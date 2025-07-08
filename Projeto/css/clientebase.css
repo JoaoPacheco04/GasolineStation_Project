@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #483D8B, #E6E6FA);
+  font-family: Arial, sans-serif;
+}
+
+.admin-nav {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  font-size: 16px;
+  color: #333;
+}
+
+.nav-right a {
+  color: #ff4c4c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-right a:hover {
+  color: #cc0000;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #E6E6FA;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.icon1 {
+  width: 50px;
+  height: auto;
+}
+
+.main-container {
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botoes-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #6A5ACD;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(106, 90, 205, 0.45);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #5548a1;
+  transform: translateY(-2px);
+}
+
+.logout-button {
+  background-color: #ff4c4c;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  margin: 30px auto 0 auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+.notificacoes-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.notificacoes-box h2 {
+  margin-top: 0;
+}
+
+.notificacoes-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notificacoes-box li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.mark-read {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  font-size: 14px;
+}
+
+.mark-read:hover {
+  background-color: #3e8e41;
+}

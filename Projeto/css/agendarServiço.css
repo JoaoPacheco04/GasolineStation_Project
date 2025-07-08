@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to right, #483D8B, #E6E6FA);
+    font-family: Arial, sans-serif;
+  }
+    
+h1 {
+    color: #E6E6FA;
+    text-align: center;
+  }
+  
+  .icon1 {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza */
+    }
+  
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+select, input[type="date"], input[type="time"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+button {
+    background-color: rgb(106, 90, 210);
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #252047;
+  }
+  .mensagem {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #320d54;
+    font-weight: bold;
+    display: none;
+  }
+
+  .voltar-fixo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #e3cdff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-decoration: none;  /* tira o sublinhado do link */
+    display: inline-block;  /* permite padding e border-radius */
+    transition: background-color 0.3s ease;
+  }
+  
+  .voltar-fixo:hover {
+    background-color: #1f002b;
+  }

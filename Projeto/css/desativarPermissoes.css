@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to right, #483D8B, #E6E6FA);
+    font-family: Arial, sans-serif;
+  }
+    
+  h1 {
+    color: #E6E6FA;
+    text-align: center;
+  }
+  
+  .icon1 {
+    width: 80px;
+    height: auto;
+    position: relative;
+    left: 550px;
+    top: -490px;
+  }

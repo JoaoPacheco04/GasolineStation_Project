@@ -1,0 +1,115 @@
+/* adminbase.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #483D8B, #E6E6FA);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.admin-nav {
+  background-color: rgba(72, 61, 139, 0.85); /* slightly transparent to blend with bg */
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-left strong {
+  font-weight: 700;
+}
+
+.nav-right a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-right a:hover {
+  background-color: #3f3686;
+  border-color: #362f7a;
+}
+
+/* To compensate for fixed navbar height */
+body > .header,
+body > .white-container {
+  margin-top: 60px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header .icon1 {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #483D8B;
+  margin: 0;
+}
+
+/* White container centered */
+.white-container {
+  max-width: 400px;
+  background-color: white;
+  margin: 0 auto 50px auto;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Buttons container vertical stack */
+.botoes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Buttons style */
+.botoes-container button,
+.logout-button {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #6A5ACD;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(106, 90, 205, 0.45);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botoes-container button:hover,
+.logout-button:hover {
+  background-color: #5548a1;
+  transform: translateY(-2px);
+}

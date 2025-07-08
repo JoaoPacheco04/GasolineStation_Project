@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to right, #483D8B, #E6E6FA);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c2c5a;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: left; /* For good form/table alignment */
+}
+
+.Perm-tabela {
+  width: 90%; /* Less than 100% to show margins */
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.Perm-tabela th,
+.Perm-tabela td {
+  border: 1px solid #ccc;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.Perm-tabela th {
+  background-color: #2c3e50;
+  color: #fff;
+  font-weight: 600;
+}
+
+.Perm-tabela tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.Perm-tabela tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+.voltar-fixo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #2c3e50;
+  border-radius: 8px;
+  background-color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 1000;
+}
+
+.voltar-fixo:hover {
+  background-color: #2c3e50;
+  color: white;
+}

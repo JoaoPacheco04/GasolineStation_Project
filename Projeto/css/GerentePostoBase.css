@@ -1,0 +1,101 @@
+/* === BASE === */
+body {
+  background: linear-gradient(to right, #483D8B, #E6E6FA);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* === DASHBOARD LAYOUT === */
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* === CONTAINERS === */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* === TITLES === */
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #483D8B;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* === BOMBA GRID === */
+.bomba-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 15px;
+}
+
+.bomba-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.bomba-card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.percent {
+  font-size: 16px;
+}
+
+/* === ALERTS SECTION === */
+.alert-box {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+}
+
+.alert {
+  padding: 8px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-left: 4px solid #dc3545;
+  color: #333;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* === BUTTON === */
+.clear-alerts {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #483D8B;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clear-alerts:hover {
+  background-color: #372f6b;
+}
